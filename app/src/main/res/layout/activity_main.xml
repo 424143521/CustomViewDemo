@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hhn="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customview.TestView
+        android:id="@+id/testView"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="324dp"
+        android:background="@color/black"
+        hhn:layout_constraintStart_toStartOf="parent"
+        hhn:layout_constraintTop_toTopOf="parent"
+        hhn:test_boolean="true"
+        hhn:test_emum="bottom"
+        hhn:test_integer="1"
+        hhn:test_string="asdf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
